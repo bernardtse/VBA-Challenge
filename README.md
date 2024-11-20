@@ -15,7 +15,7 @@ This challenge focuses on analysing stock market data using VBA (Visual Basic fo
 The repository contains the following files:
 
 - `StockAnalysis.vbs` - The VBA script used for stock data analysis.
-- [Resources](Resources) - Folder containing the Excel file that the VBA script applies to.
+- [Resources/](Resources) - Folder containing the Excel file that the VBA script applies to.
   - `Multiple_year_stock_data.xlsx` - Excel file (warning: large file size)
 - [`Screenshots/`](Screenshots) - Folder containing screenshots of the results for different years:
   - [`Screenshot_2018.png`](Screenshots/Screenshot_2018.png)
