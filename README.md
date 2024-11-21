@@ -15,7 +15,7 @@ This challenge focuses on analysing stock market data using VBA (Visual Basic fo
 ## 2. Repository
 The repository contains the following files:
 
-- `StockAnalysis.vbs` - The VBA script used for stock data analysis.
+- `StockAnalysis.vba` - The VBA script used for stock data analysis.
 - [Resources/](Resources) - Folder containing the Excel file that the VBA script applies to.
   - `Multiple_year_stock_data.xlsx` - Excel file (warning: large file size)
 - [`Screenshots/`](Screenshots) - Folder containing screenshots of the results for different years:
@@ -27,7 +27,7 @@ The repository contains the following files:
 ## 3. Deployment
 To run the analysis, follow these simple steps:
 1. Download this repository to your local computer.
-2. Import the `StockAnalysis.vbs` script into the Excel file `Multiple_year_stock_data.xlsx`.
+2. Import the `StockAnalysis.vba` script into the Excel file `Multiple_year_stock_data.xlsx`.
 3. Run the module `StockAnalysis()` to execute the script.  
    The script will process all available data for each quarter and output the required analysis in the worksheet.
 
