@@ -12,20 +12,21 @@ Stock Market Analysis with VBA
 ## 1. Overview
 This challenge focuses on analysing stock market data using VBA (Visual Basic for Applications) scripting in Excel. The task is to create a script that loops through quarterly stock data and calculates key metrics, including the ticker symbol, quarterly price changes, percentage change, total stock volume, and highlights the stocks with the greatest percentage increase, greatest percentage decrease, and greatest total volume. Additionally, the script applies conditional formatting to highlight positive and negative changes in stock prices, making the results visually clear and easy to interpret.
 
-![VBA Code](images/code_screenshot.png)
-
 ## 2. Repository
 The repository contains the following files and folders:
 
-- `Multiple_year_stock_data_automated.xlsm` - Excel file preloaded with the VBA script. (Note: The file size is large.)
-- `StockAnalysis.bas` - The VBA script used for stock data analysis.
-- [resources/](resources) - Folder containing the raw Excel file.
-  - `Multiple_year_stock_data.xlsx` - Raw Excel file (Note: The file size is large.)
-
+- [`StockAnalysis.bas`](StockAnalysis.bas) - The VBA script used for stock data analysis.
 - [`images/screenshots/`](images/screenshots) - Folder containing screenshots of analysis results for different years.
   - [`screenshot_2018.png`](images/screenshots/screenshot_2018.png)
   - [`screenshot_2019.png`](images/screenshots/screenshot_2019.png)
   - [`screenshot_2020.png`](images/screenshots/screenshot_2020.png)
+
+External Files (click to download):
+
+- [`Multiple_year_stock_data.xlsx`](https://drive.google.com/file/d/1aamA2lVvYkGzo3dpvHQuRJW0Y3c0Rv9q/) - Raw Excel file (Note: The file size is large.)
+- [`Multiple_year_stock_data_automated.xlsm`](https://drive.google.com/file/d/18c39lX7tpFv7dAIpHjBPYHblvTQDnQHT/) - Excel file preloaded with the VBA script. (Note: The file size is large.)<br><br>
+
+![VBA Code](images/code_screenshot.png)
 
 ## 3. Deployment
 
