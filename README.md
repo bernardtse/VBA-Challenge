@@ -21,7 +21,7 @@ The repository contains the following files and folders:
   - [`screenshot_2019.png`](images/screenshots/screenshot_2019.png)
   - [`screenshot_2020.png`](images/screenshots/screenshot_2020.png)
 
-External Files (click to download):
+**External Files (click to download):**
 
 - [`Multiple_year_stock_data.xlsx`](https://drive.google.com/file/d/1aamA2lVvYkGzo3dpvHQuRJW0Y3c0Rv9q/) - Raw Excel file (Note: The file size is large.)
 - [`Multiple_year_stock_data_automated.xlsm`](https://drive.google.com/file/d/18c39lX7tpFv7dAIpHjBPYHblvTQDnQHT/) - Excel file preloaded with the VBA script. (Note: The file size is large.)<br><br>
