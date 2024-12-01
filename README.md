@@ -23,8 +23,8 @@ The repository contains the following files and folders:
 
 **External Files (click to download):**
 
-- [`Multiple_year_stock_data.xlsx`](https://drive.google.com/file/d/1aamA2lVvYkGzo3dpvHQuRJW0Y3c0Rv9q/) - Raw Excel file (Note: The file size is large.)
-- [`Multiple_year_stock_data_automated.xlsm`](https://drive.google.com/file/d/18c39lX7tpFv7dAIpHjBPYHblvTQDnQHT/) - Excel file preloaded with the VBA script. (Note: The file size is large.)<br><br>
+- [`Multiple_year_stock_data.xlsx`](https://drive.google.com/file/d/1aamA2lVvYkGzo3dpvHQuRJW0Y3c0Rv9q/) - Raw Excel file. (File Size: Approximately 80 MB)
+- [`Multiple_year_stock_data_automated.xlsm`](https://drive.google.com/file/d/18c39lX7tpFv7dAIpHjBPYHblvTQDnQHT/) - Excel file preloaded with the VBA script. (File Size: Approximately 100 MB)<br><br>
 
 ![VBA Code](images/code_screenshot.png)
 
