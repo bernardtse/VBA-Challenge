@@ -15,7 +15,7 @@ This challenge focuses on analysing stock market data using VBA (Visual Basic fo
 ## 2. Repository
 The repository contains the following files and folders:
 
-- [`StockAnalysis.bas`](StockAnalysis.bas) - The VBA script used for stock data analysis.
+- [`stock_analysis.bas`](stock_analysis.bas) - The VBA script used for stock data analysis.
 - [`images/screenshots/`](images/screenshots) - Folder containing screenshots of analysis results for different years.
   - [`screenshot_2018.png`](images/screenshots/screenshot_2018.png)
   - [`screenshot_2019.png`](images/screenshots/screenshot_2019.png)
@@ -23,8 +23,8 @@ The repository contains the following files and folders:
 
 **External Files (click to download):**
 
-- [`Multiple_year_stock_data.xlsx`](https://drive.google.com/file/d/1aamA2lVvYkGzo3dpvHQuRJW0Y3c0Rv9q/) - Raw Excel file. (File Size: Approximately 80 MB)
-- [`Multiple_year_stock_data_automated.xlsm`](https://drive.google.com/file/d/18c39lX7tpFv7dAIpHjBPYHblvTQDnQHT/) - Excel file preloaded with the VBA script. (File Size: Approximately 100 MB)<br><br>
+- [`multiple_year_stock_data.xlsx`](https://drive.google.com/file/d/1aamA2lVvYkGzo3dpvHQuRJW0Y3c0Rv9q/) - Raw Excel file. (File Size: Approximately 80 MB)
+- [`multiple_year_stock_data_automated.xlsm`](https://drive.google.com/file/d/18c39lX7tpFv7dAIpHjBPYHblvTQDnQHT/) - Excel file preloaded with the VBA script. (File Size: Approximately 100 MB)<br><br>
 
 ![VBA Code](images/code_screenshot.png)
 
@@ -33,7 +33,7 @@ The repository contains the following files and folders:
 Simple Method:
 
 1. Download the Repository: Download this repository to your local computer. (Note: The file size is large.)
-2. Open the Excel File: Launch the file `Multiple_year_stock_data_automated.xlsm` in Excel. When prompted, enable macros by clicking “Enable Content” on the security warning banner.
+2. Open the Excel File: Launch the file `multiple_year_stock_data_automated.xlsm` in Excel. When prompted, enable macros by clicking “Enable Content” on the security warning banner.
 3. Access the Macro Dialog: Press `Alt + F8` (Windows) or `Option + F8` (Mac) to open the Macro Dialog, or go to the Developer tab and click Macros.
 4. Select the Macro: In the Macro Dialog, choose the macro named `StockAnalysis()`.
 5. Run the Macro: Click the Run button to execute the macro. The script will process all quarterly data and output the analysis in the worksheet.
@@ -41,13 +41,13 @@ Simple Method:
 Alternative Method:
 
 1. Download the Repository: Download this repository to your local computer. (Note: The file size is large.)
-2. Import the `StockAnalysis.bas` script:
-  - Open the Excel File: Open `Multiple_year_stock_data.xlsx` in Excel.
+2. Import the `stock_analysis.bas` script:
+  - Open the Excel File: Open `multiple_year_stock_data.xlsx` in Excel.
   - Open the VBA Editor: `Press Alt + F11` (Windows) or `Option + F11` (Mac) to launch the VBA editor.
   - Insert a New Module: In the VBA editor, right-click `ThisWorkbook` in the Project Explorer pane. Select Insert, then choose Module.
 	- Paste or Import the Script:
 	  - To Paste the Script: Copy the VBA code and paste it into the new module window.
-	  - To Import the Script: Go to `File > Import File`, then select the `StockAnalysis.bas` file.
+	  - To Import the Script: Go to `File > Import File`, then select the `stock_analysis.bas` file.
 	-	Save as Macro-Enabled Workbook: Close the VBA editor by pressing `Alt + Q` (Windows) or `Command + Q` (Mac). Save the workbook as a .xlsm file (Macro-Enabled Workbook) via `File > Save As`.
 	-	Enable Macros: When reopening the .xlsm file, enable macros by clicking “Enable Content” on the security warning banner.
 	3.	Run the Macro `StockAnalysis()`:
