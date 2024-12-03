@@ -1,4 +1,4 @@
-# VBA-Challenge
+# vba-challenge
 Stock Market Analysis with VBA
 
 ## Contents
